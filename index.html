@@ -14,6 +14,14 @@
 
     <link rel="stylesheet" href="style.css" />
 
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
     <title>Frontend Mentor | Notifications page</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -39,33 +47,40 @@
           <img src="./assets/images/avatar-mark-webber.webp" />
           <p>
             <span class="name">Mark Webber </span> reacted to your recent post
-            <span class="grey-text">My first tournament today!</span>
-            <small>1m ago</small>
-            <small>.</small>
+            <span class="grey-text"
+              >My first tournament today!<i class="fa-solid fa-circle"></i
+            ></span>
+            <small class="time">1m ago</small>
           </p>
         </div>
         <div class="flex-box unread">
           <img src="/assets/images/avatar-angela-gray.webp" />
           <p>
-            <span class="name">Angela Gray</span>followed you <small>.</small>
+            <span class="name">Angela Gray</span>followed you
+            <i class="fa-solid fa-circle"></i>
+            <small class="time">5m ago</small>
           </p>
-          <small>5m ago</small>
         </div>
         <div class="flex-box unread">
           <img src="/assets/images/avatar-jacob-thompson.webp" />
           <p>
             <span class="name">Jacob Thompson</span>has joined your group
-            <span class="blue-text">Chess Club</span>
-            <small>.</small>
+            <span class="blue-text"
+              >Chess Club<i class="fa-solid fa-circle"></i
+            ></span>
+            <small class="time">1 day ago</small>
           </p>
-          <small>1 day ago</small>
         </div>
-        <div class="flex-box">
-          <img src="/assets/images/avatar-rizky-hasanuddin.webp" />
-          <p>
-            <span class="name">Rizky Hasanuddin</span>sent you a private message
-          </p>
-          <small>5 days ago</small>
+        <div class="col-flex-box">
+          <div class="flex-box">
+            <img src="/assets/images/avatar-rizky-hasanuddin.webp" />
+            <p>
+              <span class="name">Rizky Hasanuddin</span>sent you a private
+              message
+              <small class="time">5 days ago</small>
+            </p>
+          </div>
+
           <div class="private-msg-box">
             <p>
               Hello, thanks for setting up the Chess Club. I've been a member
@@ -74,16 +89,16 @@
             </p>
           </div>
         </div>
-        <div class="flex-box">
-          <div>
+        <div class="row-flex-box">
+          <div class="flex-box">
             <img src="/assets/images/avatar-kimberly-smith.webp" />
             <p>
               <span class="name">Kimberly Smith</span> commented on your picture
+              <small class="time">1 week ago</small>
             </p>
-            <small>1 week ago</small>
           </div>
           <div>
-            <img src="/assets/images/image-chess.webp" />
+            <img class="chess-img" src="/assets/images/image-chess.webp" />
           </div>
         </div>
         <div class="flex-box">

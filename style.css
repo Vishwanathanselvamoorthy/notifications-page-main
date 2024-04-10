@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Plus Jakarta Sans;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.main-container {
+  padding: 20px;
+  min-width: 500px;
+}
+.main-container .flex-box-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+.main-container .flex-box-1 h1 {
+  font-size: 25px;
+  font-weight: 800;
+}
+.main-container .flex-box-1 h1 span {
+  margin-left: 10px;
+  background-color: hsl(219, 85%, 26%);
+  padding: 1px 12px;
+  color: white;
+  border-radius: 6px;
+}
+.main-container .flex-box-1 p {
+  color: hsl(219, 12%, 42%);
+  font-weight: 600;
+}
+.main-container .notifications-container .unread {
+  background-color: hsl(211, 68%, 94%);
+  margin: 20px 0px;
+}
+.main-container .notifications-container .flex-box {
+  display: flex;
+  padding: 20px 10px;
+  border-radius: 10px;
+  gap: 20px;
+  align-items: center;
+}
+.main-container .notifications-container .flex-box img {
+  width: 70px;
+}
+.main-container .notifications-container .flex-box p {
+  word-spacing: 3px;
+}
+.main-container .notifications-container .flex-box small {
+  display: block;
+  font-size: 16px;
+  color: hsl(219, 12%, 42%);
+}
+.main-container .notifications-container .flex-box .name {
+  font-weight: 900;
+}
+.main-container .notifications-container .flex-box .grey-text {
+  font-weight: 700;
+  color: hsl(219, 12%, 42%);
+}

@@ -12,14 +12,14 @@ body {
   align-items: center;
   height: 100%;
   background-color: hsl(205, 33%, 90%);
+  padding: 50px 0px;
 }
 
 .main-container {
   padding: 15px;
-  width: 500px;
+  min-width: 500px;
   background-color: white;
   /* background-color: aqua; */
-  
 }
 .main-container .flex-box-1 {
   display: flex;
@@ -120,7 +120,7 @@ body {
 @media only screen and (min-width: 1024px) {
   .main-container {
     /* height: min-content; */
-   
+    max-width: 800px;
   }
   .main-container .notifications-container .col-flex-box .private-msg-box {
     width: 70%;

@@ -16,7 +16,7 @@ body {
 
 .main-container {
   padding: 15px;
-  min-width: 500px;
+  width: 500px;
   background-color: white;
 }
 .main-container .flex-box-1 {
@@ -115,7 +115,7 @@ body {
     padding: 50px 0px;
   }
   .main-container {
-    max-width: 800px;
+    width: 800px;
   }
   .main-container .notifications-container .col-flex-box .private-msg-box {
     width: 70%;

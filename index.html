@@ -38,8 +38,8 @@
   <body>
     <div class="main-container">
       <div class="flex-box-1">
-        <h1>Notifications<span>3</span></h1>
-        <p>Mark all as Read</p>
+        <h1>Notifications<span class="count">3</span></h1>
+        <p class="markall-btn">Mark all as Read</p>
       </div>
 
       <div class="notifications-container">
@@ -48,7 +48,10 @@
           <p>
             <span class="name">Mark Webber </span> reacted to your recent post
             <span class="grey-text"
-              >My first tournament today!<i class="fa-solid fa-circle"></i
+              >My first tournament today!<i
+                id="notify-symbol"
+                class="fa-solid fa-circle"
+              ></i
             ></span>
             <small class="time">1m ago</small>
           </p>
@@ -57,7 +60,7 @@
           <img src="/assets/images/avatar-angela-gray.webp" />
           <p>
             <span class="name">Angela Gray</span>followed you
-            <i class="fa-solid fa-circle"></i>
+            <i id="notify-symbol" class="fa-solid fa-circle"></i>
             <small class="time">5m ago</small>
           </p>
         </div>
@@ -66,7 +69,7 @@
           <p>
             <span class="name">Jacob Thompson</span>has joined your group
             <span class="blue-text"
-              >Chess Club<i class="fa-solid fa-circle"></i
+              >Chess Club<i id="notify-symbol" class="fa-solid fa-circle"></i
             ></span>
             <small class="time">1 day ago</small>
           </p>
@@ -81,7 +84,7 @@
             </p>
           </div>
 
-          <div class="private-msg-box">
+          <div class="private-msg-box flex-box unread">
             <p>
               Hello, thanks for setting up the Chess Club. I've been a member
               for a few weeks now and I'm already having lots of fun and
@@ -109,16 +112,16 @@
             <span class="grey-text"
               >5 end-game strategies to increase your win rate</span
             >
+            <small class="time">2 weeks ago</small>
           </p>
-          <small>2 weeks ago</small>
         </div>
         <div class="flex-box">
           <img src="/assets/images/avatar-anna-kim.webp" />
           <p>
             <span class="name"> Anna Kim</span>left the group
             <span class="blue-text">Chess Club</span>
+            <small class="time">2 weeks ago</small>
           </p>
-          <small>2 weeks ago</small>
         </div>
       </div>
     </div>

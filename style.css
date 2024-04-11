@@ -10,14 +10,16 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height: 100vh;
   background-color: hsl(205, 33%, 90%);
 }
+
 .main-container {
   padding: 15px;
-  width: 500px;
+  /* width: 500px; */
   background-color: white;
-  /* max-width: 800px; */
+  /* background-color: aqua; */
+  
 }
 .main-container .flex-box-1 {
   display: flex;
@@ -40,6 +42,7 @@ body {
 .main-container .flex-box-1 p {
   color: hsl(219, 12%, 42%);
   font-weight: 600;
+  cursor: pointer;
 }
 .main-container .notifications-container .unread {
   background-color: hsl(211, 68%, 94%);
@@ -51,6 +54,7 @@ body {
   border-radius: 10px;
   gap: 20px;
   align-items: center;
+  cursor: pointer;
 }
 .main-container .notifications-container .flex-box img {
   width: 60px;
@@ -115,7 +119,8 @@ body {
 }
 @media only screen and (min-width: 1024px) {
   .main-container {
-    width: 800px;
+    /* height: min-content; */
+   
   }
   .main-container .notifications-container .col-flex-box .private-msg-box {
     width: 70%;
